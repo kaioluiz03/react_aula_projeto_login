@@ -1,0 +1,22 @@
+body {
+    background-image: linear-gradient(to top right, #522db9 10%, #7f53ac 80%);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    width: 55vw;
+    height: 60vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
