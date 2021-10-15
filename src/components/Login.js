@@ -12,21 +12,27 @@ export default function Login(){
             </div>
 
             <form className='form'>
-                <div>
+                <div className='title-login'>
                     <h3>Member Login</h3>
                 </div>
                 
                 <div className='usuario'>
-                    <input type='text ' name='username' placeholder='Nome do Usuário' />
+                    <input type='email' name='username' placeholder='Email' />
                 </div>
 
                 <div className='senha'>
-                    <input type='password' name='senha' placeholder='Senha' />
+                    <input type='password' name='senha' placeholder='Password' />
                 </div>
 
-                <button className='botao'>Login</button>
+                <button className='botao'>LOGIN</button>
 
-                <p>Esqueceu sua senha? <a href='https://github.com/kaioluiz03/react_primeiro_projeto.git' target='_blank' rel="noreferrer">Click aqui!</a></p>
+                <div>        
+                    <p><a href='https://github.com/kaioluiz03/react_primeiro_projeto.git' target='_blank' rel="noreferrer">Forgot your password and/or email?</a></p>
+                </div>
+
+                <div className='linkCriate-acc'>
+                    <p><a href='https://github.com/kaioluiz03/react_primeiro_projeto.git' target='_blank' rel="noreferrer">Create your account</a></p>
+                </div>
             </form>
 
         </div>
